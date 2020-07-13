@@ -229,10 +229,26 @@
         
         
         <h4>常见问题</h4>
-
-       <object type="text/html" data="FAQ.html" width="100%" height="100%"></object>'
+        <div id="faq"></div>
 
     
+
+<script> 
+ //异步加载
+ function createIframe() {
+ var i = document.createElement("iframe");
+     i.src ="FAQ.html";
+     i.scrolling ="auto";
+     i.frameborder ="0";
+     i.width ="500px";
+     i.height ="300px";
+     document.getElementById("faq").appendChild(i);
+ };
+  // Check for browser support of event handling capability
+  if (window.addEventListener) window.addEventListener("load", createIframe, false);
+  else if (window.attachEvent) window.attachEvent("onload", createIframe);
+  else window.onload = createIframe;
+  </script>
 
         
         
@@ -260,7 +276,26 @@
 
         
 
-       <object type="text/html" data="PrivacyPolicy.html" width="100%" height="100%"></object>'
+               <div id="PrivacyPolicy"></div>
+
+    
+
+<script> 
+ //异步加载
+ function createIframe() {
+ var i = document.createElement("iframe");
+     i.src ="PrivacyPolicy.html";
+     i.scrolling ="auto";
+     i.frameborder ="0";
+     i.width ="500px";
+     i.height ="300px";
+     document.getElementById("PrivacyPolicy").appendChild(i);
+ };
+  // Check for browser support of event handling capability
+  if (window.addEventListener) window.addEventListener("load", createIframe, false);
+  else if (window.attachEvent) window.attachEvent("onload", createIframe);
+  else window.onload = createIframe;
+  </script>
 
         
 
