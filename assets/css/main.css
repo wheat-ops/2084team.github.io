@@ -700,7 +700,7 @@ a:hover
 
 .featherlight .featherlight-content .popup#popup-faq .item p.question
 {
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .featherlight .featherlight-content .popup#popup-faq .item p.answer
@@ -724,6 +724,25 @@ a:hover
 }
 
 .featherlight .featherlight-content .popup#popup-privacy-terms .item p.question
+{
+    font-weight: 300;
+}
+
+
+/** 8. Popup --> updatelog
+*******************************************************************/
+
+.featherlight .featherlight-content .popup#popup-updatelog-terms .item
+{
+    margin-bottom: 4.6rem;
+}
+
+.featherlight .featherlight-content .popup#popup-updatelog-terms .item p.headline
+{
+    font-weight: 500;
+}
+
+.featherlight .featherlight-content .popup#popup-updatelog-terms .item p.question
 {
     font-weight: 300;
 }

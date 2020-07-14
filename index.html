@@ -183,7 +183,7 @@
                 <!-- COLUMN -->
                 <div class="col-xs-6 text-left">
 
-                    <p class="popup-links"><a href="#" data-featherlight="#popup-faq">FAQ</a><a href="#" data-featherlight="#popup-privacy-terms">Privacy Policy</a></p>
+                    <p class="popup-links"><a href="#" data-featherlight="#popup-faq">FAQ&交流群</a><a href="#" data-featherlight="#popup-privacy-terms">隐私政策</a><a href="#" data-featherlight="#popup-updatelog-terms">更新日志</a></p>
 
                 </div>
                 <!-- /COLUMN -->
@@ -239,7 +239,7 @@
     <div class="container-fluid">
         
         
-        <h4>常见问题</h4>
+        <h4>常见问题&交流群</h4>
         <div id="faq"></div>
 
     
@@ -319,6 +319,52 @@
 
 </div>
 <!-- /POPUP PRIVACY POLICY & TERMS -->
+
+
+<!-- UPDATA LOG START -->
+<div id="popup-updatelog-terms" class="popup">
+    
+    
+    <!-- CONTAINER FLUID -->
+    <div class="container-fluid">
+        
+        
+        <h4>更新日志</h4>
+
+        
+
+               <div id="updatelog"></div>
+
+    
+
+<script> 
+ //异步加载
+ function createIframe() {
+ var i = document.createElement("iframe");
+     i.src ="UpdateLog.html";
+     i.scrolling ="auto";
+     i.frameborder ="0";
+     i.width ="100%";
+     i.height ="100%";
+     document.getElementById("updatelog").appendChild(i);
+ };
+  // Check for browser support of event handling capability
+  if (window.addEventListener) window.addEventListener("load", createIframe, false);
+  else if (window.attachEvent) window.attachEvent("onload", createIframe);
+  else window.onload = createIframe;
+  </script>
+
+        
+
+     
+        
+        
+    </div>
+    <!-- /CONTAINER FLUID -->
+
+
+</div>
+<!-- /UPDATA LOG  -->
 
 
 <!-- JAVASCRIPTS -->
