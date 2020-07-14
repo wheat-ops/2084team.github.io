@@ -1,8 +1,5 @@
 ---
-
-
 permalink: /UpdateLog/
-
 ---
 
 
