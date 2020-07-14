@@ -144,11 +144,39 @@ permalink: /
                         <p class="text-left">远程解锁”不仅能够通过手机扫描指纹登录电脑，还能控制电脑开机、关机、待机、锁屏，多种功能等你来体验！</p>
                         <br>
 
-                        <video width="320" height="180" controls="controls" >
-                          <source src="assets/video/0.mp4" type="video/mp4">
+                      
 
-                                您的浏览器不支持Video标签。
-                            </video>
+                        <div id="unlock_video"></div>
+
+
+
+                        <script> 
+                         //异步加载
+                         function createIframe() {
+                             var i = document.createElement("video");
+                             i.width ="320";
+                             i.height="180";
+                             i.src="assets/video/0.mp4";
+                             i.controls="controls" ;
+                             i.autoplay="autoplay";
+                             document.getElementById("unlock_video").appendChild(i);
+                         };
+                        // Check for browser support of event handling capability
+                        if (window.addEventListener) window.addEventListener("load", createIframe, false);
+                        else if (window.attachEvent) window.attachEvent("onload", createIframe);
+                        else window.onload = createIframe;
+                    </script>
+
+        
+        
+
+
+        
+        
+ 
+
+
+
                               <br>
                                 <br>
 
