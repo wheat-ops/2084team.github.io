@@ -1,3 +1,13 @@
+---
+
+
+layout: page
+permalink: /UpdateLog/
+
+---
+
+
+
 #### Windows 端：
 
 ##### V3.1.0 2020年5月28日

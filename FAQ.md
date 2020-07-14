@@ -1,3 +1,10 @@
+---
+layout: page
+permalink: /FAQ/
+---
+
+
+
 #### 联系我们：
 
 email：ryan.h.qin@outlook.com
