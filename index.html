@@ -160,6 +160,7 @@ permalink: /
                              i.controls="controls" ;
                              i.autoplay="autoplay";
                              document.getElementById("unlock_video").appendChild(i);
+                             document.getElementById("unlock_video")..muted = true;
                          };
                         // Check for browser support of event handling capability
                         if (window.addEventListener) window.addEventListener("load", createIframe, false);
