@@ -7,7 +7,8 @@ permalink: /FAQ/
 
 #### 联系我们：
 
-email：ryan.h.qin@outlook.com
+Email：ryan.h.qin@outlook.com
+
 QQ群:      1053768454
 
 #### 常见问题：
