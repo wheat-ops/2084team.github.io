@@ -30,7 +30,7 @@ permalink: /
     
     <meta property="og:image" content="https://2084.xiyuan.ren/assets/img/favicon.png">
     <meta property="og:url" content="https://2084.xiyuan.ren/">
-    <meta property="og:site_name" content="未来可期的书房">
+    <meta property="og:site_name" content="2084团队">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" async>
     
 
@@ -152,7 +152,7 @@ permalink: /
 
                         <script> 
                          //异步加载
-                         function createIframe() {
+                         function playvideo() {
                              var i = document.createElement("video");
                              i.width ="320";
                              i.height="180";
@@ -160,12 +160,12 @@ permalink: /
                              i.controls="controls" ;
                              i.autoplay="autoplay";
                              document.getElementById("unlock_video").appendChild(i);
-                             document.getElementById("unlock_video")..muted = true;
+                             document.getElementById("unlock_video").muted = true;
                          };
                         // Check for browser support of event handling capability
-                        if (window.addEventListener) window.addEventListener("load", createIframe, false);
-                        else if (window.attachEvent) window.attachEvent("onload", createIframe);
-                        else window.onload = createIframe;
+                        if (window.addEventListener) window.addEventListener("load", playvideo, false);
+                        else if (window.attachEvent) window.attachEvent("onload", playvideo);
+                        else window.onload = playvideo;
                     </script>
 
         
