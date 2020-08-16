@@ -654,6 +654,8 @@ a:hover
     position: relative;
     padding: 0%;
     width: 60%;
+    margin-left:0%;
+    margin-right:0%;
     max-height: 95%;
     overflow: auto;
     background: #fff;
