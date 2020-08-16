@@ -280,11 +280,9 @@ permalink: /download.html
 
 
 <!-- POPUP FAQ -->
-<div id="popup-faq" class="popup">
+<div id="popup-faq" >
 
-    
-    <!-- CONTAINER FLUID -->
-    <div class="container-fluid">
+ 
         
         
         <h4>常见问题&交流群</h4>
@@ -296,11 +294,14 @@ permalink: /download.html
  //异步加载
  function createIframe() {
  var i = document.createElement("iframe");
-     i.src ="FAQ";
+     i.src ="https://2084.xiyuan.ren/FAQ";
      i.scrolling ="auto";
      i.frameborder ="0";
-     i.width ="100%";
-     i.height ="100%";
+     i.width =document.documentElement.clientWidth;
+     i.height =document.documentElement.clientHeight;
+     i.class="lightbox";
+     i.style="border:none";
+     i.allowfullscreen="true"
      document.getElementById("faq").appendChild(i);
  };
   // Check for browser support of event handling capability
@@ -313,10 +314,6 @@ permalink: /download.html
         
 
 
-        
-        
-    </div>
-    <!-- /CONTAINER FLUID -->
 
 
 </div>
@@ -346,8 +343,8 @@ permalink: /download.html
      i.src ="PrivacyPolicy";
      i.scrolling ="auto";
      i.frameborder ="0";
-     i.width ="100%";
-     i.height ="100%";
+     i.width =document.documentElement.clientWidth;
+     i.height =document.documentElement.clientHeight;
      document.getElementById("PrivacyPolicy").appendChild(i);
  };
   // Check for browser support of event handling capability
@@ -392,8 +389,8 @@ permalink: /download.html
      i.src ="UpdateLog";
      i.scrolling ="auto";
      i.frameborder ="0";
-     i.width ="100%";
-     i.height ="100%";
+     i.width =document.documentElement.clientWidth;
+     i.height =document.documentElement.clientHeight;
      document.getElementById("updatelog").appendChild(i);
  };
   // Check for browser support of event handling capability

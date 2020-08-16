@@ -630,14 +630,36 @@ a:hover
 
 /** 6. Popup
 *******************************************************************/
-
+@media all {
+.container{ width:1140px;}
+.featherlight {
+    display: none;
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    background: #333;
+    background: rgba(0, 0, 0, 0.8);
+}
 .featherlight .featherlight-content
 {
-    max-height: 80%;
-    padding: 0;
-
-    border-bottom: 0;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: 0%;
+    width: 60%;
+    max-height: 95%;
+    overflow: auto;
+    background: #fff;
+    cursor: auto;
 }
+
 
 .featherlight .featherlight-content  .featherlight-close-icon
 {
@@ -648,9 +670,10 @@ a:hover
     right: 1em;
 
     width: 1.4em;
-
+    scroll:none;
     outline: none !important;
 }
+
 
 .featherlight .featherlight-content .popup
 {
