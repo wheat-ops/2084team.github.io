@@ -6,13 +6,15 @@ permalink: /FAQ/
 
 
 
-#### 联系我们：
+# 联系我们：
 
 Email：ryan.h.qin@outlook.com
 
 QQ群:      1053768454
 
-#### 常见问题：
+# 常见问题：
+
+### Windows端：
 
 ##### 1.一直显示查找ip的解决办法
 
