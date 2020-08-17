@@ -653,10 +653,10 @@ a:hover
     vertical-align: middle;
     position: relative;
     padding: 0%;
-    width: 60%;
+    width: 90%;
     margin-left:0%;
     margin-right:0%;
-    max-height: 95%;
+    max-height: 80%;
     overflow: auto;
     background: #fff;
     cursor: auto;
@@ -670,17 +670,14 @@ a:hover
 
     top: 1em;
     right: 1em;
-
     width: 1.4em;
-    scroll:none;
     outline: none !important;
 }
 
 
 .featherlight .featherlight-content .popup
 {
-    padding: 8vh 10vw 6vh 10vw;
-
+    padding: 0vh 0vw 0vh 0vw;
     text-align: left;
 }
 
@@ -770,4 +767,5 @@ a:hover
 .featherlight .featherlight-content .popup#popup-updatelog-terms .item p.question
 {
     font-weight: 300;
+}
 }

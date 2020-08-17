@@ -32,7 +32,7 @@ permalink: /download.html
     <meta property="og:image" content="https://czqu.gitee.io/team2084/assets/img/favicon-unlock.png">
     <meta property="og:url" content="https://2084.xiyuan.ren/download">
     <meta property="og:site_name" content="2084团队">
-    <link rel="stylesheet" type="text/css" href="https://czqu.gitee.io/team2084/assets/css/main.css" async>
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" async>
     
 
 
@@ -159,8 +159,10 @@ permalink: /download.html
 
                         <div class="download-button" onclick='window.open("https://czqu.lanzous.com/b00z6ktof");'><i class="fa fa-windows" aria-hidden="true"></i>v3.1.0</div>
                         <div class="download-button" onclick='window.open("https://www.coolapk.com/apk/com.kingtous.remote_unlock?tdsourcetag=s_pctim_aiomsg");'><i class="fa fa-android" aria-hidden="true"></i>v1.4.4</div>
-                        <div class="download-button" onclick='window.open("");'><i class="fa fa-linux" aria-hidden="true"></i>v1.0.0</div>
-                        <div class="download-button" onclick='window.open("");'><i class="fa fa-apple" aria-hidden="true"></i>v1.0.0</div>
+                    </div>
+                    <div class="animation-container animation-fade-up" data-animation-delay="400"> 
+                        <div class="download-button" onclick='window.open("https://czqu.lanzous.com/b00zqvz7a");'><i class="fa fa-linux" aria-hidden="true"></i>v1.0.0</div>
+                        <div class="download-button" onclick='window.open("https://czqu.lanzous.com/b00zqvz8b");'><i class="fa fa-apple" aria-hidden="true"></i>v1.0.0</div>
 
                     </div>
                     <!-- /ANIMATION CONTAINER -->
@@ -299,19 +301,14 @@ permalink: /download.html
      i.src ="https://2084.xiyuan.ren/FAQ";
      i.scrolling ="auto";
      i.frameborder ="0";
-     i.width =document.documentElement.clientWidth;
-     if(i.width>700)
-     {
-      i.width=i.width*0.6;
-     }else{
-       i.width=i.width*0.9
-     }
-     i.height =document.documentElement.clientHeight*0.8;
+     i.width ="100%";
+     i.height ="60%";
      i.class="lightbox";
      i.style="border:none";
      i.allowfullscreen="true"
      document.getElementById("faq").appendChild(i);
  };
+ 
   // Check for browser support of event handling capability
   if (window.addEventListener) window.addEventListener("load", createIframe, false);
   else if (window.attachEvent) window.attachEvent("onload", createIframe);
@@ -347,20 +344,14 @@ permalink: /download.html
  //异步加载
  function createIframe() {
  var i = document.createElement("iframe");
-     i.src ="PrivacyPolicy";
+     i.src ="https://2084.xiyuan.ren/PrivacyPolicy";
      i.scrolling ="auto";
      i.frameborder ="0";
      i.allowfullscreen="true"
      i.class="lightbox";
      i.style="border:none";
-     i.width =document.documentElement.clientWidth;
-        if(i.width>700)
-     {
-      i.width=i.width*0.6;
-    }else{
-       i.width=i.width*0.9
-     }
-     i.height =document.documentElement.clientHeight*0.8;
+     i.width ="100%";
+     i.height ="60%";
      document.getElementById("PrivacyPolicy").appendChild(i);
  };
   // Check for browser support of event handling capability
@@ -399,17 +390,11 @@ permalink: /download.html
  //异步加载
  function createIframe() {
  var i = document.createElement("iframe");
-     i.src ="UpdateLog";
+     i.src ="https://2084.xiyuan.ren/UpdateLog";
      i.scrolling ="auto";
      i.frameborder ="0";
-     i.width =document.documentElement.clientWidth;
-        if(i.width>700)
-     {
-      i.width=i.width*0.6;
-    }else{
-       i.width=i.width*0.9
-     }
-     i.height =document.documentElement.clientHeight*0.8;
+     i.width ="100%";
+     i.height ="60%";
      document.getElementById("updatelog").appendChild(i);
  };
   // Check for browser support of event handling capability
