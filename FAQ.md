@@ -8,7 +8,6 @@ permalink: /FAQ/
 
 # 联系我们：
 
-Email：ryan.h.qin@outlook.com
 
 QQ群:      1053768454
 
@@ -53,7 +52,7 @@ QQ群:      1053768454
 
 遇到这种情况，进入修复环境，打开命令行选项用del命令删除安装目录下RemoteFingerUnlockModule.dll文件即可。
 
-##### 4.锁屏界面提示用户名密码错误
+##### 4.锁屏界面提示用户名密码错
 
 1.请检查你输入的是密码而不是**pin**。
 
