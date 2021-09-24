@@ -1,0 +1,230 @@
+---
+date: 2021-9-14  15:00:00
+permalink: /
+---
+<!DOCTYPE html>
+<html lang="zh">
+
+
+<head>
+    <title>立即申请</title>
+    <link rel="icon" type="image/png" sizes="144x144" href="./assets/images/main/2084team.jpg"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="2084team招新申请表">
+    <meta name="author" content="Juminiy">
+    
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animation -->
+	<link rel="stylesheet" href="./assets/css/animate.css">
+	<!-- prettyphoto -->
+	<!-- Bootsrap modal -->
+	<link rel="stylesheet" href="./assets/css/bootstrap-modal-carousel.css">
+	<!-- Custom CSS -->
+	<link href="./assets/css/theme.css" rel="stylesheet">
+	<!-- Responsive styles-->
+	<link rel="stylesheet" href="./assets/css/responsive.css">
+	<!-- Custom Fonts -->
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+	<!-- Elegant icon font -->
+	<link rel="stylesheet" href="./assets/css/line-icons.min.css">
+
+	
+	
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top">
+       
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!--
+                
+            -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html#section-main" class="page-scroll">主页</a></li>
+                    <li><a class="page-scroll" href="index.html#section-about">关于我们</a></li>
+                    <li><a class="page-scroll" href="index.html#section-plan">招收方向</a></li>
+                    <!--
+                    <li><a class="page-scroll" href="#section-portfolio">portfolio</a></li>
+                    -->
+                    <li class="active"><a class="page-scroll" href="apply.html">立即申请</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      
+    </nav>
+<!-- navbar end -->
+<!-- section apply start -->
+<section id="section-apply" class="section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="section-heading text-center">
+					<p> 你想加入我们吗 ？ </p>
+					<h2>赶快填写下面的申请表吧！</h2>
+				</div>
+			</div>
+		</div>
+		<!--  row heading end -->
+		<div class="row">
+		
+
+			<div class="col-md-8  wow fadeInRight">
+				<div class="contact-box">
+					<form id="contactForm" data-toggle="validator" method="post" action="">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" id="name" name="name" class="form-control" placeholder="这里填你的大名" required data-error="请大声说出你的姓名">
+								<div class="help-block with-errors"></div>
+							</div>
+                        </div>
+                        <div class="col-md-6">
+							<div class="form-group">
+								<input type="text" name="id_num" id="id_num" class="form-control" placeholder="你的学号" required data-error="请填写你的学号">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="email" name="email" id="email" class="form-control" placeholder="你的邮箱" required data-error="请填写你的邮箱">
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" name="qq" id="qq" class="form-control" placeholder="你的QQ" required data-error="请填写你的QQ">
+								<div class="help-block with-errors"></div>
+							</div>
+                        </div>
+
+                        <!-- 添加滚轮 -->
+<!--                        <div class="col-md-6">-->
+<!--							<div class="form-group">-->
+<!--								<input type="text" name="major" id="major" class="form-control" placeholder="你的学院和专业" required data-error="请填写你的学院和专业">-->
+<!--								<div class="help-block with-errors"></div>-->
+<!--							</div>-->
+<!--                        </div>-->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="major"> 你的学院和专业 </label>
+                                <select class="form-control" id="major" name="major">
+                                    <option>请选择你的专业</option>
+                                    <option>计算机类</option>
+                                    <option>电子信息类</option>
+                                    <option>其他专业</option>
+                                </select>
+                                <br>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+							<div class="form-group">
+<!--                                <input type="text" name="position" id="position" class="form-control" placeholder="你选择的方向" required data-error="请填写你感兴趣的方向">-->
+                                <label for="position"> 你感兴趣的方向 </label>
+                                <select class="form-control" id="position" name="position" >
+                                    <option>请选择你的方向</option>
+                                    <option>编译原理研究</option>
+                                    <option>应用开发小组</option>
+                                    <option>操作系统</option>
+                                    <option>我很强，都能做，可以全栈和算法兼顾</option>
+                                    <option>我很弱，很迷茫，但是我有兴趣</option>
+                                </select>
+                                <br>
+                                <div class="help-block with-errors"></div>
+							</div>
+                        </div>
+
+
+						<div class="col-md-12">
+							<div class="form-group">
+								<textarea id="message" name="message" cols="30" rows="10" class="textarea-block form-control" placeholder="介绍一下你自己吧" required data-error="你还没介绍你自己呢！"></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-12  text-right wow fadeInUp text-center">
+							<button class="btn btn-black " id="submit" value="Submit" >填好以后点击这里加入我们！</button>
+							<div id="msgSubmit" class="h3 text-center hidden"></div>
+						</div>
+                        <br>
+					</form>
+				</div>
+			</div>
+                
+            <div class="col-md-4">
+                <div class="section-heading text-center">
+                    <h2>联系我们</h2>
+                </div>
+            </div>
+       
+                <div class="col-md-4">
+                <ul class="contact-info">
+                    <li class="info-block">
+                        <div class="icon-block">
+                            <i class="fa fa-qq"></i>
+                        </div>
+                        <h4>QQ 群</h4>
+                        <p>群号: 1147163275 </p>
+                    </li>
+                    <li class="info-block">
+                        <div class="icon-block">
+                            <i class="icon icon-envelope"></i>
+                        </div>
+                        <h4>邮箱</h4>
+                        <p>Email: zhaoxin@2084team.cn</p>
+                        
+                    </li>
+                    <li class="info-block">
+                        <div class="icon-block">
+                            <i class="icon icon-map"></i>
+                        </div>
+                        <h4>Find us</h4>
+                        <p>南校区 科技楼9015 </p>
+                    </li>
+                </ul>
+            </div>
+		</div>
+		<!-- row end -->
+	</div>
+	<!-- container end -->
+</section>
+<!-- section contact end -->
+<div id="footer"></div>
+</body>
+
+<!-- jQuery -->
+<script src="./assets/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="./assets/js/bootstrap.min.js"></script>
+<!-- form validation -->
+<script type="text/javascript" src="./assets/js/validator.min.js"></script>
+<script type="text/javascript" src="./assets/js/form-scripts.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="./assets/js/jquery.easing.min.js"></script>
+<!-- isotope -->
+<script type="text/javascript" src="./assets/js/jquery.isotope.js"></script>
+<!-- Waypoints -->
+<script type="text/javascript" src="./assets/js/jquery.waypoints.min.js"></script>
+<!-- Wow Animation -->
+<script type="text/javascript" src="./assets/js/wow.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script type="text/javascript" src="./assets/js/theme.min.js"></script>
+<script type="text/javascript" src="./assets/js/czq.min.js"></script>
+<script type="text/javascript" src="/assets/js/b.js"></script>
+
+
+<!-- dependency of bootstrap framework scroll action move with mouse goes -->
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
