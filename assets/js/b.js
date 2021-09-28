@@ -1,1 +1,1 @@
-var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?ce3359d713b24c7217bf62d8e9ebc9a9";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s)})();
+var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?04c3f8f472c6a346900c5d01f81e53ab";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s)})();
